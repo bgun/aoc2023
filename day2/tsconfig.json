@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "types": ["node"],
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "out",
+        "lib": [ "es2018", "dom" ]
+    },
+    "ts-node": {
+        "esm": true, // «———— enabling ESM for ts-node   
+    }
+}
